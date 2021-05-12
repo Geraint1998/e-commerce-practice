@@ -3,4 +3,4 @@
 
 效果图如下：
 
-![](C:/Users/Geraint/Desktop/e-commerce-practice/img/example.jpeg)
+![](./img/example.jpeg)
