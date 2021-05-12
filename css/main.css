@@ -1,0 +1,241 @@
+*{
+	box-sizing: border-box;
+	transition: background-color 200ms;
+}
+
+body{
+	font-family:'Microsoft Yahei';
+	font-size:15px;
+	color:#666;
+	background: #fafafa;
+}
+
+a{
+	text-decoration: none;
+}
+
+#top{
+	background: #f3f3f3;
+	height: 29px;
+	border-bottom:1px solid #d8d8d8
+}
+
+#top_bar{
+	display: block;
+	height:29px;
+	margin:0 auto;
+	max-width: 90%;
+}
+
+#welcome{
+	float: left;
+	line-height: 29px;
+}
+#login{
+	float: right;
+	line-height: 29px;
+}
+
+#top .item{
+    display: inline-block;
+	color: #666666;
+}
+
+#top .item:hover{
+    color: #0000FF;
+}
+
+#header{
+	margin: 30px 0px;
+}
+
+#header_box{
+	font-size: 20px;
+	height: 80px;
+	display: block;
+	margin:0 auto;
+	max-width: 90%;
+}
+
+#logo{
+	height: 100%;
+	float: left;
+	width: 20%;
+	display: -webkit-box;             /*flex弹性布局*/
+	-webkit-box-align: center;
+}
+
+#search{
+	height: 100%;
+	float: left;
+	width: 60%;
+	display: -webkit-box;             /*flex弹性布局*/
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+}
+
+#search_box{
+	width: 90%;
+	border: 2px solid #dd182b;
+	background-color: #dd182b;
+}
+
+#search_box input,
+#search_box button{
+	background: #ffffff;
+	border: 0;
+	display: block;
+	float: left;
+	padding: 5px;
+	outline: 0;
+}
+
+#search_box input{
+	width: 80%;
+}
+
+#search_box input:focus{
+    box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#search_box button{
+	width: 20%;
+	background-color: #dd182b;
+	color: #fff;
+}
+
+#search_box button:hover{
+    background-color: #ce1829;
+}
+
+#shopping{
+	height: 100%;
+	float: right;
+	width: 20%;
+	display: -webkit-box;             /*flex弹性布局*/
+	-webkit-box-align: center;
+	-webkit-box-pack: end;
+}
+
+#shopping_cart a{
+	padding: 3.5px;
+	background-color: #ffffff;
+	border: 2px solid #e10003;
+	color: #dd182b;
+}
+
+#hot{
+	margin: 40px 0;
+	height: 300px;
+}
+
+#hot_box{
+	margin:0 auto;
+	height: 300px;
+	max-width: 90%;
+}
+
+
+#menu{
+	float: left;
+	width: 20%;
+}
+
+#rolling{
+	float: left;
+	width: 60%;
+}
+
+#menu .item1{
+	font-size: 20px;
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	height: 50px;
+	border: 1px solid #666666;
+}
+
+#menu .item1:hover{
+	background: #f50004;
+}
+
+#rolling{
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+}
+#rolling img{
+	height: 300px;
+}
+
+#announcement{
+	padding: 3px;
+	font-size: 18px;
+	line-height: 32px;
+	height: 300px;
+	float: right;
+	width: 20%;
+	border: 2px solid #989898 ;
+	background: #d9d9d9;
+}
+
+#recommand_box{
+	margin:0 auto;
+	max-width: 90%;
+}
+
+.item2{
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	float: left;
+	width: 25%;
+	height: 100%;
+	border: 5px solid #ff4551;
+}
+
+.item2:hover{
+	border: 5px solid #0000FF;
+}
+
+.item2_1,.item2_2,.item2_3,.item2_4{
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: #ffff7f;
+	border: 5px solid #ff4551;
+}
+
+.item2_1:hover{
+	background: #f50004;
+}
+
+.item2_2:hover{
+	background: #f50004;
+}
+.item2_3:hover{
+	background: #f50004;
+}
+.item2_4:hover{
+	background: #f50004;
+}
+
+#recommand_box img{
+	height: 128px;
+}
+
+#fruit, #seafood, #meat, #digital{
+	height: 140px;
+	margin: 10px 0;
+}
+
+#footer{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+
